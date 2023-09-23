@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class= "logo">Anandu Muralidharan</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#experience">Experience</a></li>
+                <li> <a href="#art">Art Works</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class= "logo">Anandu Muralidharan</div> 
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon " onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-list">
+                <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+                <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li> <a href="#art" onclick="toggleMenu()">Art Works</a></li>
+                <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
+
+    <section id="Profile">
+        <div class="Profile_pic" >
+            <img class = "propicc" src="./assets/profilepic.png">
+        </div>
+        <div class="info">
+            <p class = "fline">Hello, I am</p>
+            <h1 class="title">Anandu Muralidharan</h1>
+            <div class="button-container">
+                <button class="b1" onclick="window.open('./assets/Anandu_Muralidharan_CV.pdf')">Resume</button>
+
+            </div>
+
+            <div class = "social-container">
+                <img class="p1" src="./assets/linkedin.png" onclick="location.href = ('https://www.linkedin.com/in/anandu-muralidharan/')">
+                <img class= "p2" src="./assets/github.png" onclick="location.href = ('https://github.com/hewlot')">
+            
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="about">
+        <p class="fline">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="image-container">
+                <img class= "abtimage" src = "./assets/abtme.jpg">
+            </div>
+            <div class="education-container">
+                <div class="ed">
+                    <img class="p1" src="./assets/education.png">
+                    <h3>EDUCATION</h3>
+                    <div class="int">
+                    <li>Senior undergraduate @ IIT Gandinagar</li><li> Descipline: Materials Science and Engineering</li>
+                </div>
+                </div>
+                <div class="ed">
+                    <img class="p1" src="./assets/experience.png">
+                    <h3>Interests</h3>
+                    <div class="int">
+                    <li>Sketching</li><li>Reading Novels</li><li>Coding</li>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="experience">
+        <p class="fline">Explore my</p>
+        <h1 class="title">Experience</h1>
+
+        </div> 
+        <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Java Script</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>React Js   </h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Design Tools</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Canva</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Procreate</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Illustrator</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id = "art">
+        <p class="fline">I like to draw in my freetime. So here are some of my</p>
+        <h1 class="title">Artworks</h1>
+        <div class="art-container">
+        <div class="art-section">
+            <div class="ind-art">
+                <img  class = "imgg" src="./assets/art1.jpg">
+                <div class="button-container">
+                    <button class="b1" onclick="window.open('./assets/Artt1.pdf')">Download PDF</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="art-section">
+            <div class="ind-art">
+                <img class = "imgg" src="./assets/art2.jpg">
+                <div class="button-container">
+                    <button class="b1" onclick="window.open('./assets/Artt2.pdf')">Download PDF</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id = "contact">
+
+        <div class="contact-container">
+            <div class="last">
+            <p class="fline">You guys can</p>
+            <h1 class="title">Contact me</h1>
+            <p class="fline">via:</p>
+            <div class = "social-container-last">
+                <img class="p-last" src="./assets/linkedin.png" onclick="location.href = ('https://www.linkedin.com/in/anandu-muralidharan/')">
+                <img class= "p-last" src="./assets/github.png" onclick="location.href = ('https://github.com/hewlot')">
+            
+            </div>
+        </div>
+        <div class="footer">
+            <p class="fline-last">Copyright © 2023 Anandu Muralidharan. All Rights Reserved</p>
+        </div>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
